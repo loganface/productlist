@@ -6,6 +6,15 @@ interface ProductCardProps {
   secondarySources: string[];
 }
 
+function getSourceType(url: string): string {
+  if (url.includes('x.com') || url.includes('twitter.com')) return 'X';
+  if (url.includes('youtube.com') || url.includes('youtu.be')) return 'YouTube';
+  if (url.includes('instagram.com')) return 'Instagram';
+  if (url.includes('blueprint.bryanjohnson.com')) return 'Blueprint';
+  if (url.includes('protocol.bryanjohnson.com')) return 'Protocol';
+  return 'Link';
+}
+
 export default function ProductCard({ 
   name, 
   productLink, 
@@ -26,15 +35,15 @@ export default function ProductCard({
             {name}
           </a>
           <div className="mt-4">
-            <p className="text-gray-600 mb-2">Mentioned in:</p>
             <div className="space-y-2">
+              <span className="text-gray-600 mr-2">Used by Bryan:</span>
               <a
                 href={primarySource}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-gray-600 px-3 py-1 rounded-full text-sm"
               >
-                Primary Source
+                {getSourceType(primarySource)}
               </a>
               {secondarySources.map((source, index) => (
                 <a
@@ -42,9 +51,9 @@ export default function ProductCard({
                   href={source}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-white text-gray-600 px-3 py-1 rounded-full text-sm"
+                  className="inline-block bg-white text-gray-600 px-3 py-1 rounded-full text-sm ml-2"
                 >
-                  Source {index + 2}
+                  {getSourceType(source)}
                 </a>
               ))}
             </div>

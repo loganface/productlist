@@ -1,7 +1,11 @@
 import ProductCard from './ProductCard'
-import { products } from '../data/products'  // Import the products array from your data file
+import { Product } from '../data/products'  // Import the Product type
 
-export default function ProductList() {
+interface ProductListProps {
+  products: Product[]
+}
+
+export default function ProductList({ products }: ProductListProps) {
   return (
     <div className="space-y-4">
       {products.map((product) => (

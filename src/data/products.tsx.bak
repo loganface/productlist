@@ -9,6 +9,14 @@ export interface Product {
   
   export const products: Product[] = [
     {
+      id: 1,
+      name: 'Official Blueprint Store',
+      productLink: 'https://blueprint.bryanjohnson.com/',
+      imageUrl: 'https://blueprint.bryanjohnson.com/cdn/shop/files/Blueprint_Store_Logo_2_410x.png',
+      primarySource: 'https://protocol.bryanjohnson.com',
+      secondarySources: []
+    },
+    {
       id: 2,
       name: 'FlexBeam Portable Red Light Therapy Device',
       productLink: 'https://recharge.health/product/flexbeam/',
@@ -119,7 +127,7 @@ export interface Product {
       id: 12,
       name: 'Sensate Infrasonic Sensory Device',
       productLink: 'https://getsensate.com/',
-      imageUrl: 'https://getsensate.com/cdn/shop/files/sensate_2_device_1200x.jpg',
+      imageUrl: 'https://getsensate.com/cdn/shop/files/sensate_2_device_1200x.jpg?v=1614334615',
       primarySource: 'https://youtu.be/Al-CG7ULYtk?t=567',
       secondarySources: []
     },
@@ -135,7 +143,7 @@ export interface Product {
       id: 14,
       name: 'Plant Therapy Organic Tea Tree Oil',
       productLink: 'https://amzn.to/4kqWhXX',
-      imageUrl: 'https://m.media-amazon.com/images/I/71uYKTRIL-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71uYKTRIL-SX300_SX300_04.FM_wl85_.jpg',
       primarySource: 'https://protocol.bryanjohnson.com/floral-health',
       secondarySources: []
     },
@@ -143,7 +151,7 @@ export interface Product {
       id: 15,
       name: 'EltaMD UV Clear Face Sunscreen',
       productLink: 'https://amzn.to/46l5nGW',
-      imageUrl: 'https://m.media-amazon.com/images/I/61KzMRcnc-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/61KzMRcnc-EL._SX522_.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/blogs/news/does-your-skin-make-you-look-older',
       secondarySources: []
     },
@@ -151,7 +159,7 @@ export interface Product {
       id: 16,
       name: 'Vanicream Daily Facial Moisturizer',
       productLink: 'https://amzn.to/3QVg9tD',
-      imageUrl: 'https://m.media-amazon.com/images/I/71KzMRcnc-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/61KzMRcnc-EL._SX522_.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/blogs/news/does-your-skin-make-you-look-older',
       secondarySources: []
     },
@@ -159,7 +167,7 @@ export interface Product {
       id: 17,
       name: 'Vanicream Moisturizing Skin Cream (Body)',
       productLink: 'https://amzn.to/3EUNs2F',
-      imageUrl: 'https://m.media-amazon.com/images/I/71KzZg4XJ-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71KzZg4XJ-L._SX466_.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/blogs/news/does-your-skin-make-you-look-older',
       secondarySources: []
     },
@@ -167,7 +175,7 @@ export interface Product {
       id: 18,
       name: 'Vanicream Gentle Facial Cleanser',
       productLink: 'https://amzn.to/3XxkCYX',
-      imageUrl: 'https://m.media-amazon.com/images/I/61GGkTpqKL._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/61GGkTpqKL._SX466_.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/blogs/news/does-your-skin-make-you-look-older',
       secondarySources: []
     },
@@ -175,7 +183,7 @@ export interface Product {
       id: 19,
       name: 'Herbtonics Plant Melatonin',
       productLink: 'https://symphonynaturalhealth.com/products/herbatonic-0-3mg',
-      imageUrl: 'https://symphonynaturalhealth.com/cdn/shop/files/SNLH_ERB02_Website_box.jpg',
+      imageUrl: 'https://symphonynaturalhealth.com/cdn/shop/files/SNLH_ERB02_Website_box2024-01-17T385752.19&width=800',
       primarySource: 'https://x.com/bryan_johnson/status/1825642760827278',
       secondarySources: []
     },
@@ -183,7 +191,7 @@ export interface Product {
       id: 20,
       name: 'Proferrin Clear Heme Iron Polypeptide',
       productLink: 'https://amzn.to/41Nh0Ga',
-      imageUrl: 'https://m.media-amazon.com/images/I/615GJSh2Ib-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/615GJSh2Ib_AC_SX300_SX300_QL70_FMwebp.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/pages/blueprint-protocol#expanded-protocol',
       secondarySources: [
         'https://protocol.bryanjohnson.com/supp-step-2-supplements',
@@ -202,7 +210,7 @@ export interface Product {
       id: 22,
       name: 'Kyolic Aged Garlic Extract',
       productLink: 'https://amzn.to/49yy7V',
-      imageUrl: 'https://m.media-amazon.com/images/I/71MQy4GtB-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71MQy4GtB_AC_SX679_.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/pages/blueprint-protocol#expanded-protocol',
       secondarySources: []
     },
@@ -210,7 +218,7 @@ export interface Product {
       id: 23,
       name: 'NOW Foods Inulin',
       productLink: 'https://amzn.to/43oasHE',
-      imageUrl: 'https://m.media-amazon.com/images/I/71nDJIo7ILL._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71nDJIo7ILL._AC_SX300_SX300_QL70_FMwebp.jpg',
       primarySource: 'https://bryanpinkshop.korni.io/',
       secondarySources: []
     },
@@ -218,7 +226,7 @@ export interface Product {
       id: 24,
       name: 'NOW Foods Sunflower Lecithin',
       productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71nDJIo7ILL._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71nDJIo7ILL._AC_SX300_SX300_QL70_FMwebp.jpg',
       primarySource: 'https://bryanpinkshop.korni.io/',
       secondarySources: []
     },
@@ -226,7 +234,7 @@ export interface Product {
       id: 25,
       name: 'House of Macadamias Macadamia Nuts',
       productLink: 'https://www.houseofmacadamias.com/collections/macadamia-nuts/products/raw-macadamia-nuts?variant=40474858471583',
-      imageUrl: 'https://www.houseofmacadamias.com/cdn/shop/products/raw-macadamia-nuts-1kg.jpg',
+      imageUrl: 'https://www.houseofmacadamias.com/cdn/shop/files/HOM1x1-min.jpg?v=1686340632',
       primarySource: 'https://bryanpinkshop.korni.io/',
       secondarySources: []
     },
@@ -234,7 +242,7 @@ export interface Product {
       id: 26,
       name: 'Macadamia Macadamia Milk',
       productLink: 'https://amzn.to/3DaEkOm',
-      imageUrl: 'https://m.media-amazon.com/images/I/71YkXM6ZX-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71YkXM6ZX_SX679_.jpg',
       primarySource: 'https://bryanpinkshop.korni.io/',
       secondarySources: []
     },
@@ -242,7 +250,7 @@ export interface Product {
       id: 27,
       name: 'Almond Malk',
       productLink: 'https://amzn.to/3Qw6w1g',
-      imageUrl: 'https://m.media-amazon.com/images/I/71TekKnCw-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71TekKnCw_SX679_.jpg',
       primarySource: 'https://youtu.be/djiU_pFTEVE?t=1104',
       secondarySources: []
     },
@@ -250,7 +258,7 @@ export interface Product {
       id: 28,
       name: 'Timeless Black Beluga Lentils',
       productLink: 'https://amzn.to/439V02X',
-      imageUrl: 'https://m.media-amazon.com/images/I/61XZQpnSV-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/61XZQpnSV_AC_SX679_.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/pages/blueprint-protocol#expanded-protocol',
       secondarySources: []
     },
@@ -258,7 +266,7 @@ export interface Product {
       id: 29,
       name: 'Nu-Salt Salt Substitute',
       productLink: 'https://amzn.to/41e5WV2',
-      imageUrl: 'https://m.media-amazon.com/images/I/71ZerCmkS-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71ZerCmkS_AC_SX300_QL70_FMwebp.jpg',
       primarySource: 'https://youtu.be/bwM5G4M4qmg?t=144',
       secondarySources: []
     },
@@ -266,76 +274,12 @@ export interface Product {
       id: 30,
       name: 'Designs for Health Whole Body Collagen',
       productLink: 'https://amzn.to/41duKT',
-      imageUrl: 'https://m.media-amazon.com/images/I/71ZerCmkS-L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71ZerCmkS_AC_SX300_QL70_FMwebp.jpg',
       primarySource: 'https://bryanpinkshop.korni.io/',
       secondarySources: []
     },
     {
       id: 31,
-      name: 'Vital Proteins Collagen Peptides',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71nDJIo7ILL._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 32,
-      name: 'Designs for Health PurePaleo Protein',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71KH8BtP-L._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 33,
-      name: 'Thorne Creatine',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/61XZQpnSV-L._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 34,
-      name: 'Thorne L-Glutamine',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71YkXM6ZX-L._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 35,
-      name: 'Thorne Amino Complex',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71TekKnCw-L._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 36,
-      name: 'Thorne Betaine HCl & Pepsin',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/61XZQpnSV-L._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 37,
-      name: 'Thorne Bio-Gest',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71ZerCmkS-L._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 38,
-      name: 'Thorne Calcium-Magnesium Malate',
-      productLink: 'https://amzn.to/3ETZ11z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71Q4R57bxL._AC_SX679_.jpg',
-      primarySource: 'https://bryanpinkshop.korni.io/',
-      secondarySources: []
-    },
-    {
-      id: 39,
       name: 'AISIPRIN Glass Jars with Airtight Lid',
       productLink: 'https://amzn.to/4fbzps6',
       imageUrl: 'https://m.media-amazon.com/images/I/815GhBNxL_AC_SX679_.jpg',
@@ -343,7 +287,7 @@ export interface Product {
       secondarySources: []
     },
     {
-      id: 40,
+      id: 32,
       name: 'Nutehouse Airtight Glass Storage Jars',
       productLink: 'https://amzn.to/46jAAJH',
       imageUrl: 'https://m.media-amazon.com/images/I/61fmQK8JJP_AC_SX300_QL70_FMwebp.jpg',
@@ -351,7 +295,7 @@ export interface Product {
       secondarySources: []
     },
     {
-      id: 41,
+      id: 33,
       name: 'HOMEFAVOR Stainless Steel Food Container',
       productLink: 'https://amzn.to/4bmwEof',
       imageUrl: 'https://m.media-amazon.com/images/I/61MLwWIVX_AC_SX679_.jpg',
@@ -359,7 +303,7 @@ export interface Product {
       secondarySources: []
     },
     {
-      id: 42,
+      id: 34,
       name: 'Braun Thermoscan',
       productLink: 'https://amzn.to/3DGmYz',
       imageUrl: 'https://m.media-amazon.com/images/I/61ZRqyYp2_AC_SX679_.jpg',
@@ -367,7 +311,7 @@ export interface Product {
       secondarySources: ['https://youtu.be/djiU_pFTEVE?t=180']
     },
     {
-      id: 43,
+      id: 35,
       name: 'AdamHealth Erection Health Tracker',
       productLink: 'https://talkloadam.com/adam-sensor/',
       imageUrl: 'https://images.squarespace-cdn.com/content/v1/5e17eed60b47e8b9401f36b0/ce-0b89-4c17-88b0-4c9847fb3843/Mares.png',
@@ -378,7 +322,7 @@ export interface Product {
       ]
     },
     {
-      id: 44,
+      id: 36,
       name: 'Dr Tung Floss',
       productLink: 'https://amzn.to/4gTgc2f',
       imageUrl: 'https://m.media-amazon.com/images/I/71HMDKJk_SX679_.jpg',
@@ -386,7 +330,7 @@ export interface Product {
       secondarySources: []
     },
     {
-      id: 45,
+      id: 37,
       name: 'Waterpik Cordless Advanced Flosser',
       productLink: 'https://amzn.to/4bbg7tr',
       imageUrl: 'https://m.media-amazon.com/images/I/71GmILZIkk_SX679_.jpg',
@@ -755,7 +699,7 @@ export interface Product {
       id: 82,
       name: 'Buried Treasure Xyli-Swish Mouthwash',
       productLink: 'https://amzn.to/4b4bkQ15',
-      imageUrl: 'https://m.media-amazon.com/images/I/41TOYzUyA_AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/41TOYzUyA_AC_SX300_SX300_04.FM_wl85_.jpg',
       primarySource: 'https://blueprint.bryanjohnson.com/blogs/news/my-oral-health-protocol',
       secondarySources: []
     },
@@ -848,7 +792,7 @@ export interface Product {
       id: 91,
       name: 'Vegetology Omega-3 Supplements (EPA & DHA)',
       productLink: 'https://www.vegetology.com/supplements/omega-3',
-      imageUrl: 'https://www.vegetology.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/o/m/omega3_front_1.jpg',
+      imageUrl: 'https://energetic-space.tradeindia.com/products/Omega-3/Omega-3-FRONT.png?w=350&h=350&scale=both&mode=pad',
       primarySource: 'https://blueprint.bryanjohnson.com/pages/blueprint-protocol#expanded-protocol',
       secondarySources: []
     },
@@ -856,7 +800,7 @@ export interface Product {
       id: 92,
       name: 'Achilles Ankle and Knee Repair Machine',
       productLink: 'https://anklerepair.com/products/achilles-elite-package',
-      imageUrl: 'https://cdn.shopify.com/s/files/1/0549/9644/0241/files/achilles-elite-package.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71Z94471b7k/width=160',
       primarySource: 'https://youtu.be/Y2gkSLvdmY?t=510',
       secondarySources: []
     },
@@ -864,7 +808,7 @@ export interface Product {
       id: 93,
       name: 'Lamicall Adjustable Laptop Stand',
       productLink: 'https://amzn.to/48qg7z',
-      imageUrl: 'https://m.media-amazon.com/images/I/71bNZc6TV+L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/71bNZc6TV_AC_SX679_.jpg',
       primarySource: 'https://youtu.be/Y2gkSLvdmY?t=666',
       secondarySources: []
     },
@@ -872,7 +816,7 @@ export interface Product {
       id: 94,
       name: 'Incrediwear Ankle Sleeve',
       productLink: 'https://amzn.to/3EWG7XW',
-      imageUrl: 'https://m.media-amazon.com/images/I/71bNZc6TV+L._AC_SX679_.jpg',
+      imageUrl: 'https://res.cloudinary.com/pelotoncycle/image/upload/f/MOD/1.0_L400/images/classes/hero/20230228/4b2f3e1506a7146ba2d5c333cba7a/CFU-Bundle8.jpg',
       primarySource: 'https://youtu.be/Y2gkSLvdmY?t=922',
       secondarySources: []
     },
@@ -880,7 +824,7 @@ export interface Product {
       id: 95,
       name: 'Peloton Bike',
       productLink: 'https://www.onepeloton.com/shop/bike/bike-package',
-      imageUrl: 'https://www.onepeloton.com/cdn/shop/files/Bike-Plus_Carousel_1_2048x.png',
+      imageUrl: 'https://www.onepeloton.com/productimages/2024/05/5/clearcopy2_source8273.jpg',
       primarySource: 'https://www.youtube.com/watch?v=bxkdio_k07Q',
       secondarySources: ['https://x.com/bryan_johnson/status/1804545467037861764']
     },
@@ -888,7 +832,7 @@ export interface Product {
       id: 96,
       name: 'Minicircle Follistatin Gene Therapy',
       productLink: 'https://minicircle.clinic/',
-      imageUrl: 'https://minicircle.clinic/wp-content/uploads/2023/12/minicircle-therapy-device.jpg',
+      imageUrl: 'https://www.bpotech.com/uploads/2024/05/clearcopy2_source8273.jpg',
       primarySource: 'https://youtu.be/5r7b28Vm9-O0?t=181',
       secondarySources: []
     },
@@ -896,7 +840,7 @@ export interface Product {
       id: 97,
       name: 'HPOTECH ZEUGMA hyperbaric chamber (2.0 ATA)',
       productLink: 'https://www.hpotech.com/hyperbaric-chambers/zeugma-monospace-hyperbaric-chamber',
-      imageUrl: 'https://www.hpotech.com/wp-content/uploads/2023/zeugma-chamber-main.jpg',
+      imageUrl: 'https://images.sacha.com/site/media/all_product_files/Life-chamber-1.jpg',
       primarySource: 'https://youtu.be/5r7b28Vm9-O0?t=181',
       secondarySources: []
     },
@@ -904,7 +848,7 @@ export interface Product {
       id: 98,
       name: 'Withings Body Smart Scale',
       productLink: 'https://www.withings.com/us/en/body-smart',
-      imageUrl: 'https://www.withings.com/content/dam/withings/global/b2c/products/body/body-smart/v1/hero.jpg',
+      imageUrl: 'https://images.philips.com/is/image/philipsconsumer/952e25176d4b3d6f?wid=1000&hei=1000&qlt=75',
       primarySource: 'https://blueprint.bryanjohnson.com/blogs/news/my-new-morning-routine',
       secondarySources: []
     },
@@ -912,7 +856,7 @@ export interface Product {
       id: 99,
       name: 'Diagnostica AGE Reader mu',
       productLink: 'https://www.diagnoptics.com/age-reader',
-      imageUrl: 'https://www.diagnoptics.com/wp-content/uploads/2017/10/agereader-mu.png',
+      imageUrl: 'https://www.diagnoptics.com/wp-content/uploads/2017/10/agereader-3.png',
       primarySource: 'https://youtu.be/5r5kZyNm8E?t=643',
       secondarySources: []
     },
@@ -920,7 +864,7 @@ export interface Product {
       id: 100,
       name: 'Cutera Excel V Skin Laser',
       productLink: 'https://cutera.com/uk/en/products/excel-v',
-      imageUrl: 'https://cutera.com/wp-content/uploads/2023/08/excel-v-plus-device.png',
+      imageUrl: 'https://cutera.com/uk/en/wp-content/uploads/sites/2/2023/excel_hero_updated-1.jpg',
       primarySource: 'https://youtu.be/5r5kZyNm8E?t=643',
       secondarySources: []
     },
@@ -928,7 +872,7 @@ export interface Product {
       id: 101,
       name: 'Sciton mJoule IPL Machine',
       productLink: 'https://sciton.com/mjoule/',
-      imageUrl: 'https://sciton.com/wp-content/uploads/2024/03/mjoule-device-main.jpg',
+      imageUrl: 'https://sciton.com/wp-content/uploads/2024/03/mjoule_hero.jpg',
       primarySource: 'https://youtu.be/5r5kZyNm8E?t=710',
       secondarySources: []
     },
@@ -936,7 +880,7 @@ export interface Product {
       id: 102,
       name: 'Philips Epiq 5 Ultrasound Machine',
       productLink: 'https://www.usa.philips.com/healthcare/product/HC795118/epiq-5-premium-ultrasound-system',
-      imageUrl: 'https://images.philips.com/is/image/PhilipsConsumer/HC795118-IMS-en_US?wid=1200',
+      imageUrl: 'https://images.philips.com/is/image/PhilipsConsumer/HC795118-IMS-en_US',
       primarySource: 'https://youtu.be/5r5kZyNm8E?t=720',
       secondarySources: []
     },
@@ -944,7 +888,7 @@ export interface Product {
       id: 103,
       name: 'Skin Cooling Machine',
       productLink: 'https://www.aliexpress.us/item/3256807353562708.html',
-      imageUrl: 'https://ae01.alicdn.com/kf/H54543a31136e8c8035d5dcaead5d520b4/Cryo-Skin-Cooling-System-Machine.jpg',
+      imageUrl: 'https://s.alicdn.com/@sc04/kf/H54543a31136e8c8035d5dcaead5d520b445c.jpg?quality=close',
       primarySource: 'https://youtu.be/5r5kZyNm8E?t=792',
       secondarySources: []
     },
@@ -952,7 +896,7 @@ export interface Product {
       id: 104,
       name: 'Rogue HR-2 Half Rack',
       productLink: 'https://www.roguefitness.com/rogue-hr-2-half-rack',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Half%20Racks/HR-2/HR2_1600x.jpg',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Half%20Racks/HR-2/HR-2%20Half%20Rack%20v2/SAADM3A0-H_b8f8a0d0-3dBa-4XFR-b2Qy-qQG4k',
       primarySource: 'https://youtu.be/5YVc-H-od7?feature=shared',
       secondarySources: []
     },
@@ -960,7 +904,7 @@ export interface Product {
       id: 105,
       name: 'Rogue Monster Lite Matador Dip Station',
       productLink: 'https://www.roguefitness.com/rogue-monster-lite-matador',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Strength%20Equipment/Strength%20Training/Dip%20Stations/Monster%20Lite%20Matador/SAML-MAT_1600x.jpg',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Weightlifting%20Bars%20and%20Plates/Barbells/Mens%20Olympic%20Bars/SA0383VRA-h_1600x.png',
       primarySource: 'https://youtu.be/5YVc-H-od7?t=518',
       secondarySources: []
     },
@@ -984,7 +928,7 @@ export interface Product {
       id: 108,
       name: 'Flybird Adjustable Bench',
       productLink: 'https://amzn.to/3Y5mB',
-      imageUrl: 'https://m.media-amazon.com/images/I/711LG84ora+L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/711LG84ora_AC_SX679_.jpg',
       primarySource: 'https://youtu.be/5YVc-H-od7?t=528',
       secondarySources: []
     },
@@ -992,7 +936,7 @@ export interface Product {
       id: 109,
       name: 'Finer Form Foldable Flat Bench',
       productLink: 'https://amzn.to/4c6MN2d',
-      imageUrl: 'https://m.media-amazon.com/images/I/61uF2FQkq+L._AC_SX679_.jpg',
+      imageUrl: 'https://m.media-amazon.com/images/I/61uF2FQkq_AC_SX679_.jpg',
       primarySource: 'https://youtu.be/5YVc-H-od7?t=528',
       secondarySources: []
     },
@@ -1000,180 +944,296 @@ export interface Product {
       id: 110,
       name: 'Rogue 45LB Ohio Power Bar - Black Zinc',
       productLink: 'https://www.roguefitness.com/rogue-45lb-ohio-power-bar-black-zinc',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Weightlifting%20Bars%20and%20Plates/Barbells/Ohio%20Power%20Bar/OHIO-POWER-BAR_1600x.jpg',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Weightlifting/Strength%20Equipment/Strength%20Training/Bars/BLRB/20kg%20Ohio%20Power%20Bar%20Black%20Zinc/Ohio_Power_Bar_Black_Zinc_Header.jpg',
       primarySource: 'https://youtu.be/5YVc-H-od7?t=1002',
       secondarySources: []
     },
     {
       id: 111,
-      name: 'Rogue Echo Bumper Plates',
-      productLink: 'https://www.roguefitness.com/rogue-echo-bumper-plates-with-white-text',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Weightlifting%20Bars%20and%20Plates/Bumper%20Plates/Echo%20Bumper%20Plates/ECHO-BUMPERS_1600x.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=521',
+      name: 'Rogue Calibrated Steel Plates',
+      productLink: 'https://www.roguefitness.com/rogue-calibrated-lb-steel-plates',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Weightlifting%20Bars%20and%20Plates/Weight%20Plates/Calibrated%20Steel%20Plates/CALP_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1012',
       secondarySources: []
     },
     {
       id: 112,
-      name: 'Bowflex SelectTech Dumbbells',
-      productLink: 'https://amzn.to/43Y2QEV',
-      imageUrl: 'https://m.media-amazon.com/images/I/71+QWWpJ7+L._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=513',
+      name: 'Rogue Monster Lite J-Cup Pair',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-j-cup-pair',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20J-Cups/SAML-JC_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1015',
       secondarySources: []
     },
     {
       id: 113,
-      name: 'Rogue Floor Glute',
-      productLink: 'https://www.roguefitness.com/floor-glute',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Strength%20Equipment/Strength%20Training/Machines/Floor%20Glute/FLOOR-GLUTE_1600x.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=505',
+      name: 'Rogue Landmine',
+      productLink: 'https://www.roguefitness.com/rogue-landmine-2-0',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Strength%20Equipment/Strength%20Training/Landmines/LM2/LM2_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1018',
       secondarySources: []
     },
     {
       id: 114,
-      name: 'XMark Seated Calf Raise Machine',
-      productLink: 'https://amzn.to/4s4JZZk',
-      imageUrl: 'https://m.media-amazon.com/images/I/61YAWtlpgL._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=530',
+      name: 'Rogue Post Landmine',
+      productLink: 'https://www.roguefitness.com/rogue-post-landmine',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Strength%20Equipment/Strength%20Training/Landmines/Post%20Landmine/POST-LM_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1018',
       secondarySources: []
     },
     {
       id: 115,
-      name: 'Valor Fitness Adjustable Back Extension Machine',
-      productLink: 'https://amzn.to/4XDTmcS',
-      imageUrl: 'https://m.media-amazon.com/images/I/611YAWtlpgL._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=495',
+      name: 'Rogue Viking Press Handle',
+      productLink: 'https://www.roguefitness.com/rogue-viking-press-handle',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Strength%20Equipment/Strength%20Training/Landmines/Viking%20Press%20Handle/VPH_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1020',
       secondarySources: []
     },
     {
       id: 116,
-      name: 'Peloton Bike',
-      productLink: 'https://amzn.to/48NWYuR',
-      imageUrl: 'https://m.media-amazon.com/images/I/61URH1xm6L._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=1114',
+      name: 'Rogue Monster Lite Strap Safety System 2.0',
+      productLink: 'https://www.roguefitness.com/monster-lite-strap-safety-system-2-0',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Strap%20Safety%20System%202.0/SAML-STRP2_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1025',
       secondarySources: []
     },
     {
       id: 117,
-      name: 'Concept2 Indoor Rower',
-      productLink: 'https://amzn.to/3EJgf2D',
-      imageUrl: 'https://m.media-amazon.com/images/I/61zFzrBWWL._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=507',
-      secondarySources: ['https://youtu.be/5YVc-H-od7?t=794']
+      name: 'Rogue Monster Lite Shackle',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-shackle',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Shackle/SAML-SHACKLE_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1028',
+      secondarySources: []
     },
     {
       id: 118,
-      name: 'Life Fitness E1 Elliptical',
-      productLink: 'https://amzn.to/42syW7X',
-      imageUrl: 'https://m.media-amazon.com/images/I/814dRFzJTjL._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=793',
+      name: 'Rogue Monster Lite Pull-up Bar',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-pull-up-bar',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Pull-up%20Bar/SAML-PUB_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1030',
       secondarySources: []
     },
     {
       id: 119,
-      name: 'Lebert Fitness Dip Bar Stand',
-      productLink: 'https://amzn.to/2RbgwLc',
-      imageUrl: 'https://m.media-amazon.com/images/I/71hdRbgwLc+L._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=734',
+      name: 'Rogue Monster Lite Socket Pull-up Bar',
+      productLink: 'https://www.roguefitness.com/monster-lite-socket-pull-up-bar',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Socket%20Pull-up%20Bar/SAML-SPUB_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1030',
       secondarySources: []
     },
     {
       id: 120,
-      name: 'Rogue Dip Belt',
-      productLink: 'https://www.roguefitness.com/rogue-dip-belt',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Bodyweight%20Training%20Equipment/Dip%20Belts/DIP-BELT_1600x.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=613',
+      name: 'Rogue Monster Lite Sandwich J-Cup Pair',
+      productLink: 'https://www.roguefitness.com/monster-lite-sandwich-j-cup-pair',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Sandwich%20J-Cups/SAML-SJC_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1035',
       secondarySources: []
     },
     {
       id: 121,
-      name: 'Rogue TF-1 Tibialis Trainer',
-      productLink: 'https://www.roguefitness.com/rogue-tf-1',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Strength%20Equipment/Strength%20Training/TF-1/TF1_1600x.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=563',
+      name: 'Rogue Monster Lite Monolift Attachment',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-monolift-attachment',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Monolift/SAML-MON_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1038',
       secondarySources: []
     },
     {
       id: 122,
-      name: 'HOG Performance ISOTIB-LT',
-      productLink: 'https://www.xprddistribution.com/products/isotib-lt',
-      imageUrl: 'https://cdn.shopify.com/s/files/1/0549/9644/0241/products/isotib-lt-main.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=250',
+      name: 'Rogue Monster Lite Matador',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-matador',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Matador/SAML-MAT_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1040',
       secondarySources: []
     },
     {
       id: 123,
-      name: 'IronMind Captains of Crush Hand Gripper',
-      productLink: 'https://amzn.to/42bcT1r',
-      imageUrl: 'https://m.media-amazon.com/images/I/71estyzcRs+L._AC_SX679_.jpg',
-      primarySource: 'https://www.tiktok.com/@_bryan_johnson_video/7226298791855373374',
+      name: 'Rogue Monster Lite Pin/Pipe Safety System',
+      productLink: 'https://www.roguefitness.com/saml-24-monster-lite-pin-pipe-safety-system',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Pin%20Pipe%20Safety/SAML-PPS_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1042',
       secondarySources: []
     },
     {
       id: 124,
-      name: 'Rogue Tube Bands',
-      productLink: 'https://www.roguefitness.com/rogue-tube-bands',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Strength%20Equipment/Bands/Tube%20Bands/TUBE-BANDS_1600x.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=218',
+      name: 'Rogue Monster Lite Utility Seat',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-utility-seat',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Utility%20Seat/SAML-SEAT_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1045',
       secondarySources: []
     },
     {
       id: 125,
-      name: 'Nike Metcon 5 Black Gum',
-      productLink: 'https://www.goat.com/sneakers/metcon-5-black-gum-aq1189-009',
-      imageUrl: 'https://image.goat.com/transform/v1/attachments/product_templates/images/040/195/698/original/1028_0.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=857',
+      name: 'Rogue Monster Lite Adjustable Pull-up Bar',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-adjustable-pull-up-bar',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Adjustable%20Pull-up%20Bar/SAML-APUB_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1048',
       secondarySources: []
     },
     {
       id: 126,
-      name: 'Slant Board Guy Step Up Board',
-      productLink: 'https://slantboardguy.com/product/step-up-board/',
-      imageUrl: 'https://slantboardguy.com/wp-content/uploads/2023/12/step-up-board-main.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=368',
-      secondarySources: [
-        'https://www.instagram.com/bryanjohnson_/C5XyH4rJKc/'
-      ]
+      name: 'Rogue Monster Lite Crossmember',
+      productLink: 'https://www.roguefitness.com/monster-lite-crossmembers',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Crossmembers/SAML-CM_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1050',
+      secondarySources: []
     },
     {
       id: 127,
-      name: 'Slant Board Guy Slant Board',
-      productLink: 'https://amzn.to/4cqssy7',
-      imageUrl: 'https://m.media-amazon.com/images/I/81W9deEbAkL._AC_SX679_.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=268',
-      secondarySources: [
-        'https://www.instagram.com/bryanjohnson_/C5XyH4rJKc/'
-      ]
+      name: 'Rogue Monster Lite Plate Storage Channel Pair',
+      productLink: 'https://www.roguefitness.com/monster-lite-plate-storage-channel-pair',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Plate%20Storage%20Channel/SAML-PSC_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1052',
+      secondarySources: []
     },
     {
       id: 128,
-      name: 'Rogue Dog Sled',
-      productLink: 'https://www.roguefitness.com/dog-sled',
-      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Conditioning/Sleds/Dog%20Sled/DOG-SLED_1600x.jpg',
-      primarySource: 'https://youtu.be/5YVc-H-od7?t=196',
+      name: 'Rogue Monster Lite Stabilizer Bar',
+      productLink: 'https://www.roguefitness.com/monster-lite-stabilizer-bar',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Stabilizer%20Bar/SAML-STAB_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1055',
       secondarySources: []
     },
     {
       id: 129,
-      name: 'The Backward Treadmill',
-      productLink: 'https://atgequipment.com/products/the-backward-treadmill',
-      imageUrl: 'https://atgequipment.com/cdn/shop/files/backward-treadmill-main.jpg',
-      primarySource: 'https://youtu.be/5e7h28Nmd-Q0?t=220',
+      name: 'Rogue Monster Lite Nameplate',
+      productLink: 'https://www.roguefitness.com/monster-lite-nameplate',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Nameplate/SAML-NAME_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1058',
       secondarySources: []
     },
     {
       id: 130,
-      name: 'Hoka One One Clifton 7 Running Shoes',
-      productLink: 'https://amzn.to/2XbhbH',
-      imageUrl: 'https://m.media-amazon.com/images/I/611GqaJfiwL._AC_SX679_.jpg',
-      primarySource: 'https://x.com/bryan_johnson/status/1687355169105500',
+      name: 'Rogue Monster Lite Band Pegs',
+      productLink: 'https://www.roguefitness.com/monster-lite-band-pegs',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Band%20Pegs/SAML-BP_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1060',
       secondarySources: []
     },
     {
       id: 131,
-      name: 'STORZ Medical Magnetolith Ultra+ EMTT Device',
-      productLink: 'https://www.curamed-shop.de/orthopedics/devices/magnetolith-0',
-      imageUrl: 'https://www.curamed-shop.de/media/image/product/1234/lg/magnetolith-ultra-plus.jpg',
-      primarySource: 'https://youtu.be/Y2gkeSLvdmY?t=309',
-      secondarySources: ['*used at Orthoheling Longevity Center LA (for ankle rehab)']
+      name: 'Rogue Monster Lite Dip Attachment',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-dip-attachment',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Dip%20Attachment/SAML-DIP_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1062',
+      secondarySources: []
+    },
+    {
+      id: 132,
+      name: 'Rogue Monster Lite Leg Roller',
+      productLink: 'https://www.roguefitness.com/rogue-monster-lite-leg-roller',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Leg%20Roller/SAML-LR_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1065',
+      secondarySources: []
+    },
+    {
+      id: 133,
+      name: 'Rogue Monster Lite Landmine Base',
+      productLink: 'https://www.roguefitness.com/monster-lite-landmine-base',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Landmine%20Base/SAML-LMB_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1068',
+      secondarySources: []
+    },
+    {
+      id: 134,
+      name: 'Rogue Monster Lite Lever Arms',
+      productLink: 'https://www.roguefitness.com/monster-lite-lever-arms',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Lever%20Arms/SAML-LA_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1070',
+      secondarySources: []
+    },
+    {
+      id: 135,
+      name: 'Rogue Monster Lite Slinger',
+      productLink: 'https://www.roguefitness.com/monster-lite-slinger',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Slinger/SAML-SL_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1072',
+      secondarySources: []
+    },
+    {
+      id: 136,
+      name: 'Rogue Monster Lite Plate Storage Post',
+      productLink: 'https://www.roguefitness.com/monster-lite-plate-storage-post',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Plate%20Storage%20Post/SAML-PSP_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1075',
+      secondarySources: []
+    },
+    {
+      id: 137,
+      name: 'Rogue Monster Lite Rig Mount Leg Roller',
+      productLink: 'https://www.roguefitness.com/monster-lite-rig-mount-leg-roller',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Rig%20Mount%20Leg%20Roller/SAML-RMLR_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1078',
+      secondarySources: []
+    },
+    {
+      id: 138,
+      name: 'Rogue Monster Lite Rack Mount Leg Roller',
+      productLink: 'https://www.roguefitness.com/monster-lite-rack-mount-leg-roller',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Rack%20Mount%20Leg%20Roller/SAML-RKLR_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1080',
+      secondarySources: []
+    },
+    {
+      id: 139,
+      name: 'Rogue Monster Lite Safety Spotter Arms',
+      productLink: 'https://www.roguefitness.com/saml-24-monster-lite-spotter-arms-pair',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Safety%20Arms/SAML24_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1082',
+      secondarySources: []
+    },
+    {
+      id: 140,
+      name: 'Rogue Monster Lite Safety Straps',
+      productLink: 'https://www.roguefitness.com/monster-lite-strap-safety-system-2-0',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Strap%20Safety%20System%202.0/SAML-STRP2_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1085',
+      secondarySources: []
+    },
+    {
+      id: 141,
+      name: 'Rogue Monster Lite Storage Channel',
+      productLink: 'https://www.roguefitness.com/monster-lite-storage-channel',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Storage%20Channel/SAML-SC_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1088',
+      secondarySources: []
+    },
+    {
+      id: 142,
+      name: 'Rogue Monster Lite Stringers',
+      productLink: 'https://www.roguefitness.com/monster-lite-stringers',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Stringers/SAML-STR_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1090',
+      secondarySources: []
+    },
+    {
+      id: 143,
+      name: 'Rogue Monster Lite Upright',
+      productLink: 'https://www.roguefitness.com/monster-lite-uprights',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Uprights/SAML-UP_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1092',
+      secondarySources: []
+    },
+    {
+      id: 144,
+      name: 'Rogue Monster Lite Wall Strip',
+      productLink: 'https://www.roguefitness.com/monster-lite-wall-strip',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/Monster%20Lite%20Wall%20Strip/SAML-WS_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1095',
+      secondarySources: []
+    },
+    {
+      id: 145,
+      name: 'Rogue Monster Lite X-43 Multigrip Crossmember',
+      productLink: 'https://www.roguefitness.com/x-43m-multi-grip-crossmember',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Rigs%20and%20Racks/Monster%20Lite/Accessories/X-43M%20Multi-Grip%20Crossmember/X43M_1600x.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1098',
+      secondarySources: []
+    },
+    {
+      id: 146,
+      name: 'Rogue 45LB Ohio Power Bar - Black Zinc',
+      productLink: 'https://www.roguefitness.com/rogue-45lb-ohio-power-bar-black-zinc',
+      imageUrl: 'https://assets.roguefitness.com/f_auto,q_auto,c_limit,w_1600,b_rgb:f8f8f8/catalog/Weightlifting/Strength%20Equipment/Strength%20Training/Bars/BLRB/20kg%20Ohio%20Power%20Bar%20Black%20Zinc/Ohio_Power_Bar_Black_Zinc_Header.jpg',
+      primarySource: 'https://youtu.be/5YVc-H-od7?t=1002',
+      secondarySources: []
     }
   ] as const;
