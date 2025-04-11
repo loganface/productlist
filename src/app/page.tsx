@@ -1,7 +1,19 @@
 import SearchContainer from '../components/SearchContainer'
-import { products } from '../data/products'
+import { fetchProductsFromSheet, fallbackProducts, SHEET_ID } from '../data/products'
 
-export default function Home() {
+async function getProducts() {
+  try {
+    const products = await fetchProductsFromSheet(SHEET_ID);
+    return products.length > 0 ? products : fallbackProducts;
+  } catch (error) {
+    console.error('Error fetching products:', error);
+    return fallbackProducts;
+  }
+}
+
+export default async function Home() {
+  const products = await getProducts();
+  
   return (
     <main className="min-h-screen bg-white py-8 px-4">
       <div className="max-w-4xl mx-auto">
