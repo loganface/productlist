@@ -13,18 +13,22 @@ async function getProducts() {
 
 export default async function Home() {
   const products = await getProducts();
-  
+  const currentDate = new Date().toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+
   return (
     <main className="min-h-screen bg-white py-8 px-4">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4 text-black">The Big Bryan Johnson Product Masterlist</h1>
+          <h1 className="text-4xl font-bold mb-4 text-black">Every Product Used By Bryan Johnson</h1>
           <p className="text-gray-600 mb-2">
             A constantly-updated list of products personally used by Bryan in his Blueprint Protocol.
           </p>
-          <p className="text-gray-600 mb-1">PS: Not affiliated with Bryan, I just think he's neat.</p>
-          <p className="text-gray-600 font-bold mb-4">PPS: Something here wrong, out-of-date, or needs updating? DM me on X</p>
-          <p className="text-gray-500 text-sm">*Last Updated: 22 March 2025</p>
+          <p className="text-gray-600 mb-4">PS: I'm not affiliated with Bryan, but many of these links are affiliate links.</p>
+          <p className="text-gray-500 text-sm">*current as of {currentDate}</p>
         </div>
         <div className="mt-8">
           <a 
