@@ -11,7 +11,7 @@ export interface Product {
   export const fallbackProducts: Product[] = [
     {
       id: 1,
-      name: "Loading...",
+      name: "Error loading products. Please refresh the page.",
       productLink: "#",
       imageUrl: "/placeholder.png",
       primarySource: "#",
